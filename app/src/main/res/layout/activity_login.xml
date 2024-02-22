@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:background="@color/white"
         tools:layout_editor_absoluteX="39dp"
         tools:layout_editor_absoluteY="-16dp">
 
@@ -30,12 +31,13 @@
             android:textColor="@color/black"
             android:textSize="25sp" />
         <EditText
-            android:id="@+id/email"
+            android:id="@+id/emailtext"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginTop="10dp"
+            android:textColor="@color/black"
             android:background="#f2f2f2"
             android:padding="10dp"/>
         <TextView
@@ -47,21 +49,22 @@
             android:textSize="25sp" />
 
         <EditText
-            android:id="@+id/mtpasse"
+            android:id="@+id/mtpassetext"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
+            android:textColor="@color/black"
             android:layout_marginTop="10dp"
             android:background="#f2f2f2"
             android:padding="10dp" />
 
         <Button
             android:id="@+id/validerbt"
-            android:layout_width="150dp"
-            android:layout_height="60dp"
-            android:background="@color/black"
-            android:layout_marginTop="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ADD8E6"
+            android:layout_marginTop="30dp"
             android:textColor="@color/white"
             android:text="Login" />
 

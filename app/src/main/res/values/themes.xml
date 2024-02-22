@@ -2,4 +2,8 @@
 <resources>
 
     <style name="Theme.Scolarite" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Définissez ici d'autres attributs du thème -->
+    </style>
+
 </resources>

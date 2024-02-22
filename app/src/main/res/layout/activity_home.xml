@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:background="@color/white"
         tools:layout_editor_absoluteX="39dp"
         tools:layout_editor_absoluteY="-16dp">
 
@@ -21,7 +22,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginTop="200dp"
-            android:background="#00FF00"
+            android:background="#66FF66"
             android:text="Inscription"
             android:textColor="@color/black"
             android:textSize="20dp"
@@ -34,7 +35,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginTop="200dp"
-            android:background="#0000FF"
+            android:background="#ADD8E6"
             android:textColor="@color/black"
             android:textSize="20dp"
             android:text="Visualisation"
